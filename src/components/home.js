@@ -10,6 +10,7 @@ class Home extends Component {
         <NavLink to={'/dashboard'}>
           <button className="login-btn">SIGN UP</button>
         </NavLink>
+        <p />
         <NavLink to={'/dashboard'}>
           <button className="login-btn">LOGIN</button>
         </NavLink>
