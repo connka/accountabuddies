@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h1>Success Partners</h1>
+        <h1>PACTION</h1>
         {/* <img alt="logo" src="" /> */}
         <NavLink to={'/dashboard'}>
           <button className="login-btn">SIGN UP</button>
