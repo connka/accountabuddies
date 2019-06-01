@@ -1,10 +1,22 @@
 import React from 'react';
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
+
 import './App.css';
+import Home from './components/home';
+import Dashboard from './components/dashboard';
 
 function App() {
   return (
     <div>
-      <h1>Success Partners</h1>
+      <BrowserRouter>
+        <main className="">
+          <Switch>
+            <Redirect from="/" to="/home" exact />
+            <Route path="/home" component={Home} />
+            <Route path="/dashboard" component={Dashboard} />
+          </Switch>
+        </main>
+      </BrowserRouter>
     </div>
   );
 }
