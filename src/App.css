@@ -1,10 +1,10 @@
 .logo {
   padding-top: 30px;
-  padding-left: 5px;
+  padding-left: 6px;
 }
 .signup-btn {
   margin-top: 30px;
-  margin-left: 45px;
+  margin-left: 70px;
   padding: 0.5rem 3rem 0.5rem 3rem;
   border-radius: 0.6rem;
   border: none;
@@ -23,7 +23,7 @@
 
 .login-btn {
   margin-top: 10px;
-  margin-left: 65px;
+  margin-left: 90px;
   padding: 0.5rem 3rem 0.5rem 3rem;
   border-radius: 0.6rem;
   border: none;

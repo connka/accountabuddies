@@ -8,7 +8,7 @@ class Home extends Component {
         <img
           className="logo"
           alt="logo"
-          width="350px"
+          width="400px"
           height="350"
           src="https://github.com/connka/accountabuddies/blob/master/src/images/Pactionlogo.png?raw=true"
         />
