@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import SimpleBottomNavigation from './bottomNavigation';
 
-class Dashboard extends Component {
+class Buddies extends Component {
   render() {
     return (
       <div>
-        <h1>Dashboard Page</h1>
+        <h1>Buddies Page</h1>
         <SimpleBottomNavigation />
       </div>
     );
   }
 }
 
-export default Dashboard;
+export default Buddies;
