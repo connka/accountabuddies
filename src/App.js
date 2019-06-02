@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/home';
 import Dashboard from './components/dashboard';
 import Buddies from './components/buddies';
+import Prizes from './components/prizes';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/home" component={Home} />
             <Route path="/dashboard" component={Dashboard} />
             <Route path="/buddies" component={Buddies} />
+            <Route path="/prizes" component={Prizes} />
           </Switch>
         </main>
       </BrowserRouter>
