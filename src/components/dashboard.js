@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import SimpleBottomNavigation from './bottomNavigation';
-import Background from '../images/image.png';
+import DashboardBackground from '../images/image.png';
 
 var sectionStyle = {
   width: '411px',
   height: '823px',
-  backgroundImage: `url(${Background})`
+  backgroundImage: `url(${DashboardBackground})`
 };
 
 class Dashboard extends Component {
   render() {
     return (
-      <div className="dashboard">
+      <div>
         <section style={sectionStyle} />
         <SimpleBottomNavigation />
       </div>

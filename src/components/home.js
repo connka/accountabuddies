@@ -8,13 +8,13 @@ class Home extends Component {
         <img
           className="logo"
           alt="logo"
-          width="375px"
+          width="350px"
           height="350"
           src="https://github.com/connka/accountabuddies/blob/master/src/images/Pactionlogo.png?raw=true"
         />
         <p />
         <NavLink to={'/dashboard'}>
-          <button className="login-btn">SIGN UP</button>
+          <button className="signup-btn">SIGN UP</button>
         </NavLink>
         <p />
         <NavLink to={'/dashboard'}>
