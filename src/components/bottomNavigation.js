@@ -19,6 +19,7 @@ function SimpleBottomNavigation() {
 
   return (
     <BottomNavigation
+      id="bottom-nav"
       value={value}
       onChange={(event, newValue) => {
         setValue(newValue);

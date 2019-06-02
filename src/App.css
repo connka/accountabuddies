@@ -1,20 +1,34 @@
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-  .login-btn {
-    background: #fff;
-    border: 1px #2bb0ed solid;
-    color: #2bb0ed;
-    padding: 5px 10px;
-    border-radius: 2px;
-    font-family: 'Russo One', sans-serif;
-    font-weight: bold;
-    font-size: 22px;
-    outline: none;
-    color: #2bb0ed;
-  }
+.login-btn {
+  background: #fff;
+  border: 1px #2bb0ed solid;
+  color: #2bb0ed;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-family: 'Russo One', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  outline: none;
+  color: #2bb0ed;
+}
 
-  .login-btn:hover {
-    border: 1px #c6c6c6 solid;
-    color: #fff;
-    background: #2bb0ed;
-  }
+.login-btn:hover {
+  border: 1px #c6c6c6 solid;
+  color: #fff;
+  background: #2bb0ed;
+}
+
+.dashboard {
+  background-image: url('./images/image.png');
+  background: cover;
+}
+
+#bottom-nav {
+  background-image: linear-gradient(to bottom right, #2bb0ed, #fff, #2bb0ed);
+  background-size: cover;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 2em;
 }
