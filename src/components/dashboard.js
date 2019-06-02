@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import SimpleBottomNavigation from './bottomNavigation';
-import logo from '../images/image.png';
+import DashboardImage from '../images/dashboard.png';
 
 class Dashboard extends Component {
   render() {
     return (
       <div>
-        <img src={logo} alt={'logo'} id="image" />
+        <img src={DashboardImage} alt={'logo'} id="image" />
 
         <SimpleBottomNavigation />
       </div>
