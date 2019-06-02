@@ -5,8 +5,14 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h1>PACTION</h1>
-        {/* <img alt="logo" src="" /> */}
+        <img
+          className="logo"
+          alt="logo"
+          width="375px"
+          height="350"
+          src="https://github.com/connka/accountabuddies/blob/master/src/images/Pactionlogo.png?raw=true"
+        />
+        <p />
         <NavLink to={'/dashboard'}>
           <button className="login-btn">SIGN UP</button>
         </NavLink>
