@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+// import HomeImage from '../images/home.png';
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <img
-          className="logo"
-          alt="logo"
-          width="400px"
-          height="350"
-          src="https://github.com/connka/accountabuddies/blob/master/src/images/Pactionlogo.png?raw=true"
-        />
+        {/* <img src={HomeImage} alt={'logo'} id="image" /> */}
         <p />
         <NavLink to={'/dashboard'}>
           <button className="signup-btn">SIGN UP</button>
