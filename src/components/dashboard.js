@@ -1,18 +1,13 @@
 import React, { Component } from 'react';
 import SimpleBottomNavigation from './bottomNavigation';
-import DashboardBackground from '../images/image.png';
-
-var sectionStyle = {
-  width: '411px',
-  height: '823px',
-  backgroundImage: `url(${DashboardBackground})`
-};
+import logo from '../images/image.png';
 
 class Dashboard extends Component {
   render() {
     return (
       <div>
-        <section style={sectionStyle} />
+        <img src={logo} alt={'logo'} id="image" />
+
         <SimpleBottomNavigation />
       </div>
     );

@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import RestoreIcon from '@material-ui/icons/Restore';
+import RestoreIcon from '@material-ui/icons/Home';
 import BuddiesIcon from '@material-ui/icons/People';
 import PrizesIcon from '@material-ui/icons/Star';
 
