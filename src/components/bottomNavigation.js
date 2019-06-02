@@ -6,7 +6,6 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import RestoreIcon from '@material-ui/icons/Home';
 import BuddiesIcon from '@material-ui/icons/People';
 import GoalsIcon from '@material-ui/icons/Check';
-import PrizesIcon from '@material-ui/icons/Star';
 
 const useStyles = makeStyles({
   root: {
@@ -36,9 +35,6 @@ function SimpleBottomNavigation() {
       </NavLink>
       <NavLink to={'/goals'}>
         <BottomNavigationAction label="Goals" icon={<GoalsIcon />} id="bottom-nav-icon" />
-      </NavLink>
-      <NavLink to={'/prizes'}>
-        <BottomNavigationAction label="Prizes" icon={<PrizesIcon />} id="bottom-nav-icon" />
       </NavLink>
     </BottomNavigation>
   );
