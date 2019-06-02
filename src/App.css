@@ -26,7 +26,7 @@
 }
 
 #bottom-nav {
-  background-image: linear-gradient(to bottom right, #0b69a3, #fff, #0b69a3);
+  background-color: darkgray;
   background-size: cover;
   width: 100%;
   position: fixed;
