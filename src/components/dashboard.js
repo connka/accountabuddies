@@ -7,7 +7,6 @@ class Dashboard extends Component {
     return (
       <div>
         <img src={DashboardImage} alt={'logo'} id="image" />
-
         <SimpleBottomNavigation />
       </div>
     );
