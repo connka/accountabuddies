@@ -9,5 +9,5 @@ body {
   color: #2bb0ed;
   background-image: url('./images/home.png');
   background: cover;
-  /* background-image: linear-gradient(to bottom right, #2bb0ed, #fff, #2bb0ed); */
+  background-size: 100%;
 }
