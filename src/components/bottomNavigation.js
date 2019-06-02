@@ -33,6 +33,9 @@ function SimpleBottomNavigation() {
       <NavLink to={'/buddies'}>
         <BottomNavigationAction label="Buddies" icon={<BuddiesIcon />} />
       </NavLink>
+      <NavLink to={'/goals'}>
+        <BottomNavigationAction label="Goals" icon={<PrizesIcon />} />
+      </NavLink>
       <NavLink to={'/prizes'}>
         <BottomNavigationAction label="Prizes" icon={<PrizesIcon />} />
       </NavLink>
