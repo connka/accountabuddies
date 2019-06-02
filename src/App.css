@@ -51,6 +51,10 @@
   height: 2em;
 }
 
+#bottom-nav-icon {
+  color: #0b69a3;
+}
+
 #image {
   height: 100%;
   width: 100%;

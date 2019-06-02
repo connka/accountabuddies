@@ -29,16 +29,16 @@ function SimpleBottomNavigation() {
       className={classes.root}
     >
       <NavLink to={'/dashboard'}>
-        <BottomNavigationAction label="Recent" icon={<RestoreIcon />} />
+        <BottomNavigationAction label="Recent" icon={<RestoreIcon />} id="bottom-nav-icon" />
       </NavLink>
       <NavLink to={'/buddies'}>
-        <BottomNavigationAction label="Buddies" icon={<BuddiesIcon />} />
+        <BottomNavigationAction label="Buddies" icon={<BuddiesIcon />} id="bottom-nav-icon" />
       </NavLink>
       <NavLink to={'/goals'}>
-        <BottomNavigationAction label="Goals" icon={<GoalsIcon />} />
+        <BottomNavigationAction label="Goals" icon={<GoalsIcon />} id="bottom-nav-icon" />
       </NavLink>
       <NavLink to={'/prizes'}>
-        <BottomNavigationAction label="Prizes" icon={<PrizesIcon />} />
+        <BottomNavigationAction label="Prizes" icon={<PrizesIcon />} id="bottom-nav-icon" />
       </NavLink>
     </BottomNavigation>
   );
