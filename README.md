@@ -6,6 +6,10 @@ Techstars Startup Weekend is the place to look for a team, create a prototype of
 
 ### Screenshots
 
-<img src="https://github.com/connka/accountabuddies/blob/master/src/images/Paction-Video.gif" width =411 height=823>
+<img src="https://github.com/connka/accountabuddies/blob/master/src/images/Paction-Logo.png" width =400>
 
-<img src="https://github.com/connka/accountabuddies/blob/master/src/images/Pacation-Team.png" width =400>
+<img src="https://github.com/connka/accountabuddies/blob/master/src/images/Paction-Problem.png" width =400>
+
+<img src="https://github.com/connka/accountabuddies/blob/master/src/images/Paction-Solution.gif" width =400>
+
+<img src="https://github.com/connka/accountabuddies/blob/master/src/images/Paction-Team.png" width =400>
